@@ -1,0 +1,8 @@
+site_name: Local Contractors List Docs
+site_url: https://localcontractorslist.readthedocs.io
+theme:
+  name: readthedocs
+  features:
+    - navigation.tabs
+nav:
+  - Home: index.md
