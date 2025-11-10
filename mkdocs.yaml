@@ -1,11 +1,9 @@
-site_name: Local Contractors List Docs
-site_url: https://<your-project>.readthedocs.io
+version: 2
 
-# Tell MkDocs that docs live in the repo root (not /docs)
-docs_dir: .
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.12"
 
-theme:
-  name: readthedocs
-
-nav:
-  - Home: index.md
+mkdocs:
+  configuration: mkdocs.yml
