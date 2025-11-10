@@ -1,0 +1,11 @@
+site_name: Local Contractors List Docs
+site_url: https://<your-project>.readthedocs.io
+
+# Docs live in repo root
+docs_dir: .
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
